@@ -47,7 +47,7 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--button-text-color);
-  pointer-events: none; 
+  pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
@@ -266,7 +266,7 @@ main {
   outline-offset: 2px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .header {
     padding-inline: 20px;
   }

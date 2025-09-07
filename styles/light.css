@@ -3,7 +3,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --bg-image: url(../images/cover-image-light.png);
-    --background-color: #FFC2E6;
+    --background-color: #FFF1F7;
     --button-text-color: #353430;
     --rec-box-shadow: unset;
     --focus-description-text: #353430;
@@ -22,7 +22,7 @@
 /* light.css */
 :root.theme-light {
   --bg-image: url(../images/cover-image-light.png);
-  --background-color: #FFC2E6;
+  --background-color: #FFF1F7;
   --button-text-color: #353430;
   --rec-box-shadow: unset;
   --focus-description-text: #353430;
