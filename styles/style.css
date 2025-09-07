@@ -5,7 +5,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: var(--main-background-color, #000028); 
   max-width: 1024px;
   margin-inline: auto;
   box-sizing: border-box;
@@ -29,7 +28,7 @@
   justify-content: center;
 }
 
-.header__theme-menu-list{
+.header__theme-menu-list {
   display: flex;
   flex-direction: column;
   gap: 7px;
@@ -145,28 +144,31 @@
 }
 
 .edge--top-right::before {
-  top: 0; 
+  top: 0;
   right: 0;
-  width: 25px; 
+  width: 25px;
   height: 1px;
 }
 
 .edge--top-right::after {
-  top: 0; 
+  top: 0;
   right: 0;
-  width: 1px; 
+  width: 1px;
   height: 25px;
 }
 
 .edge--bottom-left::before {
-  bottom: 0; 
+  bottom: 0;
   left: 0;
-  width: 25px; height: 1px;
+  width: 25px;
+  height: 1px;
 }
 
 .edge--bottom-left::after {
-  bottom: 0; left: 0;
-  width: 1px; height: 25px;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  height: 25px;
 }
 
 main {
@@ -200,14 +202,18 @@ main {
 .text-block__title {
   color: var(--block-title-color);
   background-color: var(--block-title-background);
-  font-weight: normal;
+  font-weight: bold;
+}
+
+.text-block h4 {
+  font-weight: 400;
 }
 
 .text-block__text {
   color: var(--block-text-color);
 }
 
-.content-section__subtitle{
+.content-section__subtitle {
   background-color: var(--block-title-background);
   color:var(--block-title-color)
 }
@@ -253,17 +259,11 @@ main {
 }
 
 a {
+  position: relative;
   color: inherit;
   text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
   cursor: pointer;
-}
-
-a {
-  position: relative;
-  color: inherit;
-  text-decoration: none;
-  text-shadow: 2px 2px 0 var(--accent-color);
 }
 
 a::after {
@@ -289,7 +289,7 @@ a:focus-visible {
   outline-offset: 2px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .header {
     padding-inline: 20px;
   }
@@ -475,14 +475,14 @@ a:focus-visible {
   }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
   .header__theme-menu {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
   }
 
-  .header__theme-menu-list{
+  .header__theme-menu-list {
     flex-direction: row;
     gap: 10px;
   }
