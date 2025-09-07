@@ -4,6 +4,7 @@
 */
 :root {
   --bg-image: url(../images/cover-image-dark.png);
+  --background-color: #000028;
   --button-text-color: #FF0070;
   --rec-label-color: #FF0070;
   --elipse-background: #ff0070;
@@ -15,10 +16,10 @@
   --focus-description-text: #000028;
   --focus-description-background: #FF0070;
   --content-title-text-color: #FF0070;
-  --main-background-color: #000028;
   --block-title-color: #000028;
   --block-title-background: #FF0070;
   --block-text-color: #F1B2CE;
+  --focus-border-color: #F1B2CE;
   --rec-box: block;
 }
 
