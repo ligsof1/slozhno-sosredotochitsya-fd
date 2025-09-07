@@ -1,12 +1,37 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
 
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-image: url(../images/cover-image-light.png);
+    --button-text-color: #353430;
+    --rec-box-shadow: unset;
+    --focus-description-text: #000028;
+    --focus-description-background: #FF8DCB;
+    --button-hover-border-color: rgba(53, 52, 48, 0.4);
+    --content-title-text-color: #353430;
+    --focus-title: #FFC2E6;
+    --accent-color: #FF8DCB;
+    --main-background-color: #FFC2E6;
+    --block-title-color: #000028;
+    --block-title-background: #FF8DCB;
+    --block-text-color: #353430;
+    --rec-box: none;
+  }
+}
+/* light.css */
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-image: url(../images/cover-image-light.png);
+  --button-text-color: #353430;
+  --rec-box-shadow: unset;
+  --focus-description-text: #000028;
+  --focus-description-background: #FF8DCB;
+  --button-hover-border-color: rgba(53, 52, 48, 0.4);
+  --content-title-text-color: #353430;
+  --focus-title: #FFC2E6;
+  --accent-color: #FF8DCB;
+  --main-background-color: #FFC2E6;
+  --block-title-color: #000028;
+  --block-title-background: #FF8DCB;
+  --block-text-color: #353430;
+  --rec-box: none;
 }
